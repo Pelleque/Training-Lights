@@ -33,7 +33,7 @@ int inicio = 0; // Definimos variable para ver estado del ciclo 0 parado, 1 en m
 
 
 uint8_t broadcastAddress[] = {0x24, 0x6F, 0x28, 0x15, 0xC1, 0x18};
-typedef struct test_struct {
+typedef struct test_struct { // estructura igual que la del maestro
   int tiempo;
   int R;
   int G;
